@@ -27,7 +27,7 @@ prompt APPLICATION 106 - CHARTER_MSSQL_APP
 -- Application Export:
 --   Application:     106
 --   Name:            CHARTER_MSSQL_APP
---   Date and Time:   07:05 Wednesday February 13, 2019
+--   Date and Time:   10:33 Saturday March 2, 2019
 --   Exported By:     MPERRY
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -104,7 +104,7 @@ wwv_flow_api.create_flow(
 ,p_documentation_banner=>'Application created from create application wizard 2018.09.03.'
 ,p_authentication=>'PLUGIN'
 ,p_authentication_id=>wwv_flow_api.id(28263718226130869)
-,p_application_tab_set=>0
+,p_application_tab_set=>1
 ,p_logo_image=>'#IMAGE_PREFIX#logo/tngt.png'
 ,p_app_builder_icon_name=>'app-icon.svg'
 ,p_favicons=>'<link rel="icon" href="#IMAGE_PREFIX#logo/technologent_favicon_new.ico">'
